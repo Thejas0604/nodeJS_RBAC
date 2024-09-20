@@ -25,12 +25,12 @@ This project is a Node.js application that implements a Role-Based Access Contro
     npm install
     ```
 4. Set Up Environment Variables. Create a `.env` file add followings.
+    ```sh
+    PORT =
+    JWT_SECRET =
+    MONGO_CONNECTION_STRING  =
+    ```
 
-```sh
-PORT =
-JWT_SECRET =
-MONGO_CONNECTION_STRING  =
-```
 5. Start the server:
     ```sh
     npm run dev
