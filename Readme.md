@@ -17,22 +17,22 @@ This project is a Node.js application that implements a Role-Based Access Contro
     git clone https://github.com/yourusername/nodeJS_RBAC.git
     ```
 2. Navigate to the project directory:
-    ```sh
+    ```
     cd nodeJS_RBAC
     ```
 3. Install the dependencies:
-    ```sh
+    ```
     npm install
     ```
 4. Set Up Environment Variables. Create a `.env` file add followings.
-    ```sh
+    ```
     PORT =
     JWT_SECRET =
     MONGO_CONNECTION_STRING  =
     ```
 
 5. Start the server:
-    ```sh
+    ```
     npm run dev
     ```
 
